@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="store" type="storeType"/>
+  <xs:complexType name="song_nameType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="sn"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="storeType">
+    <xs:sequence>
+      <xs:element type="store_detailsType" name="store_details"/>
+      <xs:element type="xs:string" name="heading"/>
+      <xs:element type="songsType" name="songs"/>
+      <xs:element type="footerType" name="footer"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="release_yearType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="ry"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="song_directorType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="sd"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="song_detailsType" mixed="true">
+    <xs:sequence>
+      <xs:element type="song_nameType" name="song_name" minOccurs="0"/>
+      <xs:element type="albumType" name="album" minOccurs="0"/>
+      <xs:element type="genreType" name="genre" minOccurs="0"/>
+      <xs:element type="release_yearType" name="release_year" minOccurs="0"/>
+      <xs:element type="singerType" name="singer" minOccurs="0"/>
+      <xs:element type="song_writterType" name="song_writter" minOccurs="0"/>
+      <xs:element type="song_producerType" name="song_producer" minOccurs="0"/>
+      <xs:element type="song_directorType" name="song_director" minOccurs="0"/>
+      <xs:element type="nominationType" name="nomination" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="song_id" use="optional"/>
+    <xs:attribute type="xs:string" name="song_image_id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="singerType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="s"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="song_imagesType" mixed="true">
+    <xs:sequence>
+      <xs:element type="song_nameType" name="song_name" minOccurs="0"/>
+      <xs:element type="albumType" name="album" minOccurs="0"/>
+      <xs:element type="genreType" name="genre" minOccurs="0"/>
+      <xs:element type="release_yearType" name="release_year" minOccurs="0"/>
+      <xs:element type="singerType" name="singer" minOccurs="0"/>
+      <xs:element type="song_writterType" name="song_writter" minOccurs="0"/>
+      <xs:element type="song_producerType" name="song_producer" minOccurs="0"/>
+      <xs:element type="song_directorType" name="song_director" minOccurs="0"/>
+      <xs:element type="nominationType" name="nomination" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="song_image_id" use="optional"/>
+    <xs:attribute type="xs:string" name="song_id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="genreType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="gn"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="genre_id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="songsType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="song_detailsType" name="song_details"/>
+      <xs:element type="song_imagesType" name="song_images"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="albumType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="a"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="store_detailsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="store_name"/>
+      <xs:element type="xs:string" name="logo"/>
+      <xs:element type="xs:string" name="quote"/>
+      <xs:element type="xs:string" name="background"/>
+      <xs:element type="xs:string" name="description"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="song_producerType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="sp"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="song_writterType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="sw"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="footerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="logo_last"/>
+      <xs:element type="xs:string" name="address"/>
+      <xs:element type="xs:string" name="telephone_number"/>
+      <xs:element type="xs:string" name="social_media"/>
+      <xs:element type="xs:string" name="website_address"/>
+      <xs:element type="xs:string" name="about_us"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="nominationType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="n"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

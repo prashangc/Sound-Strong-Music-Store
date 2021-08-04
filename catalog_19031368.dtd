@@ -1,0 +1,111 @@
+<!ELEMENT store (store_details?,heading?,songs?,footer?)>
+
+
+<!ELEMENT store_details (store_name?,logo?,quote?,background?,description?)>
+
+
+<!ELEMENT store_name (#PCDATA)>
+
+
+<!ELEMENT logo EMPTY>
+
+
+<!ELEMENT quote (#PCDATA)>
+
+
+<!ELEMENT background EMPTY>
+
+
+<!ELEMENT description (#PCDATA)>
+
+
+<!ELEMENT heading (#PCDATA)>
+
+
+<!ELEMENT songs (song_details|song_images)*>
+
+
+<!ELEMENT song_details (song_name|album|genre|release_year|singer|song_writter|song_producer|song_director|nomination)*>
+<!ATTLIST song_details
+song_id CDATA #IMPLIED
+>
+
+
+<!ELEMENT song_name (#PCDATA|sn)*>
+
+
+<!ELEMENT sn (#PCDATA)>
+
+
+<!ELEMENT album (#PCDATA|a)*>
+
+
+<!ELEMENT a (#PCDATA)>
+
+<!ELEMENT genre (#PCDATA|gn)*>
+<!ATTLIST genre
+genre_id CDATA #IMPLIED
+>
+
+
+<!ELEMENT gn (#PCDATA)>
+
+<!ELEMENT release_year (#PCDATA|ry)*>
+
+
+<!ELEMENT ry (#PCDATA)>
+
+
+<!ELEMENT singer (#PCDATA|s)*>
+
+
+<!ELEMENT s (#PCDATA)>
+
+
+<!ELEMENT song_writter (#PCDATA|sw)*>
+
+<!ELEMENT sw (#PCDATA)>
+
+
+<!ELEMENT song_producer (#PCDATA|sp)*>
+
+
+<!ELEMENT sp (#PCDATA)>
+
+
+<!ELEMENT song_director (#PCDATA|sd)*>
+
+
+<!ELEMENT sd (#PCDATA)>
+
+
+<!ELEMENT nomination (#PCDATA|n)*>
+
+
+<!ELEMENT n (#PCDATA)>
+
+
+<!ELEMENT song_images EMPTY>
+<!ATTLIST song_images
+song_image_id CDATA #IMPLIED
+>
+
+
+<!ELEMENT footer (logo_last|address|telephone_number|social_media|website_address|about_us)*>
+
+
+<!ELEMENT logo_last EMPTY>
+
+
+<!ELEMENT address (#PCDATA)>
+
+
+<!ELEMENT telephone_number (#PCDATA)>
+
+
+<!ELEMENT social_media (#PCDATA)>
+
+<!ELEMENT website_address (#PCDATA)>
+
+
+<!ELEMENT about_us EMPTY>

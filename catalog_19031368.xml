@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="catalog_19031368.css"?>
+<!-- <!DOCTYPE store SYSTEM "catalog_19031368.dtd"> -->
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031368.xsd">
+    <store_details>
+
+        <store_name> SOUND STRONG MUSIC STORE</store_name>
+
+        <logo></logo>
+
+
+        <quote>
+         “ Music is the literature of the heart; it commences where speech ends. ”
+        </quote>
+
+
+        <background></background>
+        <description>
+        “Sound Strong Music Store” is a music store which has been working in selling music albums services for a decade.It has been providing best quality music albums as soon as the album is realeased. This music store has been in demand lately with the quality of albums they provide. Apart from this music instruments rental service as well as buying musical instruments is also what Sound Strong has been working on. To manage the heavy influx of customers and the difficulty with phone call-based booking, this website is for providing the customer the details of latest music albums as well as for information details of the music store.
+
+        </description>
+
+    </store_details>
+
+
+
+    <heading> SONGS</heading>
+
+    <songs>
+        <song_details song_id="S1">
+            <song_name>
+                <sn>Song Name: </sn>27
+            </song_name>
+            <album>
+                <a>Album: </a> Bloom</album>
+            <genre genre_id="G1">
+                <gn>Genre: </gn>Hip-Hop/Rap</genre>
+            <release_year>
+                <ry>Release Year:</ry>2017</release_year>
+            <singer>
+                <s>Singers: </s>Machine Gun Kelly</singer>
+            <song_writter>
+                <sw>Writter: </sw>Machine Gun Kelly</song_writter>
+            <song_producer>
+                <sp>Producer: </sp>slimXX Baze MGK</song_producer>
+            <song_director>
+                <sd>Director: </sd>Ben Griffin</song_director>
+            <nomination>
+                <n>Nomination: </n> None</nomination>
+        </song_details>
+
+
+        <song_images song_image_id="SI1"></song_images>
+
+
+
+        <song_details song_id="S2">
+            <song_name>
+                <sn>Song Name: </sn>Ride</song_name>
+            <album>
+                <a>Album: </a> BlurryFace</album>
+            <genre genre_id="G2">
+                <gn>Genre: </gn>Electropop </genre>
+            <release_year>
+                <ry>Release Year: </ry>2015</release_year>
+            <singer>
+                <s>Singers: </s>Tyler Joseph, Chris Salih</singer>
+            <song_writter>
+                <sw>Writter: </sw>Tyler Joseph</song_writter>
+            <song_producer>
+                <sp>Producer: </sp>Ricky Reed</song_producer>
+            <song_director>
+                <sd>Director: </sd>Ricky Reed</song_director>
+            <nomination>
+                <n>Nomination: </n> Billboard Music Award</nomination>
+        </song_details>
+
+        <song_images song_image_id="SI2"></song_images>
+
+        <song_details song_id="S3">
+            <song_name>
+                <sn>Song Name: </sn>SuperHeroes</song_name>
+            <album>
+                <a>Album: </a> Voices</album>
+            <genre genre_id="G3">
+                <gn>Genre: </gn>Pop </genre>
+            <release_year>
+                <ry>Release Year: </ry>      2014</release_year>
+            <singer>
+                <s>Singers: </s>Danny O'Donoghue</singer>
+            <song_writter>
+                <sw>Writter: </sw>Danny and Mark Sheehan</song_writter>
+            <song_producer>
+                <sp>Producer: </sp>Craig Mazin</song_producer>
+            <song_director>
+                <sd>Director: </sd> Zack Synder</song_director>
+
+            <nomination>
+                <n>Nomination: </n>None</nomination>
+        </song_details>
+
+        <song_images song_image_id="SI3"></song_images>
+
+
+        <song_details song_id="S4">
+            <song_name>
+                <sn>Song Name: </sn>     Perfect</song_name>
+            <album>
+                <a>Album: </a> Divide</album>
+            <genre genre_id="G4">
+                <gn>Genre: </gn>Pop</genre>
+            <release_year>
+                <ry>Release Year: </ry> 2017</release_year>
+            <singer>
+                <s>Singers: </s> Ed Sheeran</singer>
+            <song_writter>
+                <sw>Writter:</sw>    Ed Sheeran </song_writter>
+            <song_producer>
+                <sp>Producer: </sp> Will Hicks</song_producer>
+            <song_director>
+                <sd>Director: </sd>  Jason Koenig</song_director>
+
+            <nomination>
+                <n>Nomination: </n>MTV Music Video Award</nomination>
+        </song_details>
+
+        <song_images song_image_id="SI4"></song_images>
+
+        <song_details song_id="S5">
+            <song_name>
+                <sn>Song Name: </sn>     IDGAF</song_name>
+            <album>
+                <a>Album: </a> Dua Lipa: Complete Edition</album>
+            <genre genre_id="G5">
+                <gn>Genre: </gn>Pop</genre>
+            <release_year>
+                <ry>Release Year: </ry> 2018</release_year>
+            <singer>
+                <s>Singers: </s>  Dua Lipa</singer>
+            <song_writter>
+                <sw>Writter: </sw>> Dua Lipa </song_writter>
+            <song_producer>
+                <sp>Producer: </sp>  Stephen Kozmeniuk</song_producer>
+            <song_director>
+                <sd>Director: </sd> Henry Scholfield</song_director>
+
+            <nomination>
+                <n>Nomination: </n>Brit Award for British Single with Mastercard</nomination>
+        </song_details>
+
+        <song_images song_image_id="SI5"></song_images>
+
+        <song_details song_id="S6">
+            <song_name>
+                <sn>Song Name: </sn>Rap God</song_name>
+            <album>
+                <a>Album: </a> The Marshall Mathers LP 2</album>
+            <genre genre_id="G6">
+                <gn>Genre: </gn>Hip-Hop/Rap</genre>
+            <release_year>
+                <ry>Release Year: </ry>2013</release_year>
+            <singer>
+                <s>Singers: </s>Eminem</singer>
+            <song_writter>
+                <sw>Writter: </sw>Eminem </song_writter>
+            <song_producer>
+                <sp>Producer: </sp>DVLP Filthy (co.)</song_producer>
+            <song_director>
+                <sd>Director: </sd>DVLP Filthy (co.)</song_director>
+
+            <nomination>
+                <n>Nomination: </n>  Grammy Award</nomination>
+        </song_details>
+
+        <song_images song_image_id="SI6"></song_images>
+
+
+        <song_images song_image_id="SI7"></song_images>
+        <song_details song_id="S7">
+            <song_name>
+                <sn>Song Name: </sn>You and I</song_name>
+            <album>
+                <a>Album: </a> Midnight Memories</album>
+            <genre genre_id="G7">
+                <gn>Genre: </gn>Soft Rock</genre>
+            <release_year>
+                <ry>Release Year: </ry>2013</release_year>
+            <singer>
+                <s>Singers: </s>Harry Styles and Loius Tomlimson</singer>
+            <song_writter>
+                <sw>Writter: </sw>     Tyler Joseph </song_writter>
+            <song_producer>
+                <sp>Producer: </sp>John Ryan</song_producer>
+            <song_director>
+                <sd>Director: </sd>   Ben Winston</song_director>
+
+            <nomination>
+                <n>Nomination: </n> Teen Choice Award</nomination>
+        </song_details>
+
+        <song_details song_id="S8">
+            <song_name>
+                <sn>Song Name: </sn>Kill this love</song_name>
+            <album>
+                <a>Album: </a> Kill This Love</album>
+            <genre genre_id="G8">
+                <gn>Genre: </gn>Hip hop music, K-Pop</genre>
+            <release_year>
+                <ry>Release Year: </ry>April 4, 2019</release_year>
+            <singer>
+                <s>Singers: </s>BlackPink</singer>
+            <song_writter>
+                <sw>Writter: </sw>Teddy Park</song_writter>
+            <song_producer>
+                <sp>Producer: </sp>Teddy Park and ‎R.Tee‎</song_producer>
+            <song_director>
+                <sd>Director: </sd>Seo Hyun-seung</song_director>
+
+            <nomination>
+                <n>Nomination:</n> MTV K-Pop Video Music Award </nomination>
+        </song_details>
+
+        <song_images song_image_id="SI8"></song_images>
+    </songs>
+
+   <footer>
+        <logo_last></logo_last>
+        <address>Location: Kamal Marg, Kamal Pokhari, Kathmandu, Nepal</address>
+        <telephone_number>Tel: 4512929, 980-1022446</telephone_number>
+        <social_media><![CDATA[Whatsapp & Viber Number: 9801000400]]></social_media>
+        <website_address>Email: info@islington.edu.np</website_address>
+        <about_us></about_us>
+   </footer>
+
+</store>

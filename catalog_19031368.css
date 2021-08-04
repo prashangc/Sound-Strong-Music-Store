@@ -1,0 +1,408 @@
+
+store{
+	background: rgb(0,0,0);
+
+}
+
+detail{
+	margin-top: 40px;
+	padding-top: 10%;
+	font-size: 10px;
+	font-family: Courier New;
+
+}
+logo{
+	/*position: fixed;*/
+	flex-wrap: nowrap;
+	border-style: solid;
+	height:58px;
+	width: 70px;
+	display: block;
+	float: left;
+	background-image: url("images/logo.jpg");
+	background-size: 100%;
+	/*overflow: hidden;*/
+
+}
+store_name{
+	color: white;
+
+	/*background-color: black;*/
+	font-family: Courier New;
+	font-size: 30px;
+	padding-top:2%; 
+	width: 92.5%;
+	height: 42px;
+	float: right;
+	text-align: center;
+	display: block;
+}
+
+quote{
+	color: #ffffff;
+
+	height: 150px;
+	width: 49%;
+	float: left;
+	display: block;
+	padding-top:5%; 
+	text-align: center;
+	font-size: 25pt;
+	font-family: Courier New;
+	font-weight: bold;  
+}
+description{
+	padding-top: 5%;
+	padding-left: 2%;
+	color: white;
+	width: 46%;
+	font-family: Courier New;
+	height: 180px;
+	float: left;
+	font-size: 15px;
+
+}
+heading{
+	padding-top: 2%; 
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	background-color: black;
+	font-family: Courier New;
+	font-size: 30px;
+	width: 100%;
+	height: 42px;
+	float: left;
+	text-align: center;
+	display: block;
+
+}
+background{
+	float: right;
+	background-image: url("images/piano.jpg");
+	width:550px;
+	height:500px;
+	display: block;
+
+	background-size: 100%;
+
+}
+
+
+[song_id$="S1"]{
+	color: white;
+
+	margin-top: 10px;
+	width: 350px;
+	height: 370px;	
+	display: block;
+	font-family: Arial,	Helvetica, sans-serif;
+	float: right;
+	padding-top: 3%; 
+	font-size: 12pt;
+	letter-spacing: 3;
+	border: 1px solid black;
+}
+
+song_name, genre,release_year,singer,song_writter,song_producer,song_director,nomination,album{
+	display: block;
+	margin-left: 35px;
+	padding-top: 10px;
+}
+
+sn,gn,ry,s,sw,sp,sd,n,a{
+	font-weight: bold;
+}
+
+
+
+[song_image_id$="SI1"]{
+
+	background-image: url("images/mgk.png");
+	border: 1px solid black;
+	float: left;
+	background-size: 100%;
+	margin-top: 10px;	
+	width: 720px;
+	height: 400px;
+	backface-visibility: hidden;
+	transition: transform 0.5s ease-in-out;
+}
+
+song_images{
+	overflow: hidden;
+
+}
+song_images:hover {
+	transform: scale(1.11);
+}
+
+[song_image_id$="SI2"]{
+
+	margin-left: 10px;
+	background-image: url("images/try.jpg");
+	float: right;
+	background-size: 100%;
+	margin-top: 40px;
+	width: 710px;
+	height: 400px;
+
+	backface-visibility: hidden;
+	transition: transform 0.5s ease-in-out;
+
+
+}
+
+[song_id$="S2"]{
+	color: white;
+	border:1px solid black;
+	padding-top: 3%; 
+	margin-top: 40px;
+	width: 350px;
+	height: 370px;	
+	display: block;
+	font-family: Arial,
+	Helvetica, sans-serif;
+	float: left; 
+	font-size: 12pt;
+	letter-spacing: 3;
+}
+
+
+
+[song_id$="S3"]{
+	
+	/*color: white;*/
+	width: 350px;
+	height: 370px;	
+	margin-top: 0px;
+	display: block;
+	font-family: Arial,	Helvetica, sans-serif;
+	padding-top: 3%; 
+	letter-spacing: 3;
+	margin-top: 40px;
+	/*margin-left: 9px;*/
+	border:1px solid black;
+	float: right;
+	color: white;
+	/*
+	
+	
+	font-size: 12pt;
+	
+*/}
+
+[song_image_id$="SI3"]{
+
+	background-image: url("images/the script.jpg");
+	display: block;
+	float: left;
+	background-size: 100%;
+	margin-top: 40px;	
+	width: 720px;
+	height: 400px;
+	backface-visibility: hidden;
+	transition: transform 0.5s ease-in-out;
+
+
+
+}
+
+
+
+[song_image_id$="SI4"]{
+
+	
+	margin-left: 10px;
+	background-image: url("images/ed.jpg");
+	float: right;
+	background-size: 100%;
+	margin-top: 40px;
+
+	width: 710px;
+	height: 400px;
+
+	backface-visibility: hidden;
+	transition: transform 0.5s ease-in-out;
+	
+
+
+}
+
+[song_id$="S4"]{
+	color: white;
+	border:1px solid black;
+	padding-top: 3%; 
+	margin-top: 40px;
+	width: 350px;
+	height: 370px;	
+	display: block;
+	font-family: Arial,
+	Helvetica, sans-serif;
+	float: left; 
+	font-size: 12pt;
+	letter-spacing: 3;
+
+}
+
+
+
+[song_id$="S5"]{
+	color: white;
+	width: 350px;
+	height: 370px;
+	display: block;
+	font-family: Arial,	Helvetica, sans-serif;
+	padding-top: 3%; 
+	letter-spacing: 3;
+	margin-top: 40px;
+	border:1px solid black;
+	float: right;
+}
+
+[song_image_id$="SI5"]{
+
+	background-image: url("images/dua-lipa.jpg");
+	display: block;
+	float: left;
+	background-size: 100%;
+	margin-top: 40px;	
+	width: 720px;
+	height: 400px;
+	backface-visibility: hidden;
+	transition: transform 0.5s ease-in-out;
+}
+
+[song_id$="S6"]{
+	color: white;
+	border:1px solid black;
+	padding-top: 3%; 
+	margin-top: 40px;
+	width: 350px;
+	height: 370px;	
+	display: block;
+	font-family: Arial,
+	Helvetica, sans-serif;
+	float: left; 
+	font-size: 12pt;
+	letter-spacing: 3;
+
+}
+[song_image_id$="SI6"]{
+
+	background-image: url("images/eminem.jpg");
+	margin-left: 10px;
+	float: right;
+	background-size: 100%;
+	margin-top: 50px;
+	width: 710px;
+	height: 400px;
+	backface-visibility: hidden;
+	transition: transform 0.5s ease-in-out;
+	
+}
+[song_id$="S7"]{
+	color: white;
+	width: 350px;
+	height: 370px;
+	display: block;
+	font-family: Arial,	Helvetica, sans-serif;
+	padding-top: 3%; 
+	letter-spacing: 3;
+	margin-top: 40px;
+	border:1px solid black;
+	float: right;
+}
+
+[song_image_id$="SI7"]{
+
+	background-image: url("images/1d.jpg");
+	display: block;
+	float: left;
+	background-size: 100%;
+	margin-top: 50px;	
+	width: 720px;
+	height: 400px;
+	backface-visibility: hidden;
+	transition: transform 0.5s ease-in-out;
+}
+
+[song_id$="S8"]{
+	color: white;
+	border:1px solid black;
+	padding-top: 3%; 
+	margin-top: 40px;
+	width: 350px;
+	height: 370px;	
+	display: block;
+	font-family: Arial,
+	Helvetica, sans-serif;
+	float: left; 
+	font-size: 12pt;
+	letter-spacing: 3;
+
+}
+[song_image_id$="SI8"]{
+
+	background-image: url("images/bp.jpg");
+	margin-left: 10px;
+
+	float: right;
+	background-size: 100%;
+	margin-top: 50px;
+	width: 710px;
+	height: 400px;
+	/*backface-visibility: hidden;
+	transition: transform 0.5s ease-in-out;
+	*/
+}
+
+
+
+footer{
+	display:grid;
+	grid-template-rows:6vh;
+	background-color:black;
+	color:white;
+	margin-top:3vh;
+margin-left: 6%;
+	float: left;
+	width: 100%;
+	height: 250px;
+	font-family: Arial,	Helvetica, sans-serif;
+	padding-top: 2%;
+	letter-spacing: 3;
+	font-size: 15px;
+}
+logo_last{
+
+
+	background-image: url("images/logo.jpg");
+	background-size: cover;
+	width: 150px;
+	height: 100px;
+float: left;
+margin-left: 40%;
+}
+address{
+	padding-left: 31%; 
+	margin-top: 100px;
+}
+
+telephone_number{
+	padding-left: 40%; 	
+}
+
+social_media{
+	padding-left: 36%; 		
+}
+
+website_address{
+	padding-left: 40%; 		
+}
+
+song_images:hover{
+    box-shadow: 0 5px 15px white;
+    transition: opacity 0.8s ease-in-out;
+    animation-play-state: running;
+}
